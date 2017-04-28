@@ -1,0 +1,106 @@
+body {
+	background-color: rgba(185, 188, 167, 0.57);
+	height: 900px;
+}
+
+.content {
+	margin: 170px auto 0;
+	width: 70%;
+	height: 100%;
+	color: white;
+}
+header {
+	margin: 0 auto;
+	width: 100%;
+	top: 1%;
+	left: 0;
+	position: fixed;
+	background-image: url("../img/billetes-nuevos.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+header .logo {
+	margin-left: 20%;
+	height: 100%; 
+	float: left;
+}
+header .logo img {
+	margin-top: 20%;
+}
+header .logo img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+header nav {
+	float: left;
+	width: 100%;
+	background-color: rgba(189, 171, 205, 0.8);
+	font-weight: bold;
+}
+header nav ul {
+	/*border: 1px solid #7C7C7C;*/
+	text-align: center;
+	list-style: none;
+	margin: 0 0 0 20%;
+	padding: 0;
+}
+header nav ul li {
+	border-right: 1px solid gray;
+    float: left;
+    width: 20%;
+}
+header nav ul li:hover {
+	background-color: rgba(220, 220, 220, 1);
+}
+header nav ul li:first-child {
+	border-left: 1px solid gray;
+
+}
+header nav ul li a {
+    color: rgba(43, 90, 85, 1);
+    display: block;
+    padding: .3em;
+    text-decoration: none;
+}
+header .main-header {
+    float: right;
+    margin-right: 20%;
+    padding-top: 1.5em;
+}
+
+section {
+	background: url("../img/pareja.jpg") no-repeat;
+	margin: 0 auto;	
+	height: 100%;
+    background-size: cover;
+	background-position: center;
+}
+section img{
+	width: 100%;
+}
+.promo{
+	height: 33%;
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2em;
+    padding: 3%;
+}
+.upper {
+	text-transform: uppercase;
+}
+
+header button:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+header button {
+	background-color: rgba(218, 46, 46, 0.78);
+	color: white;
+	padding: 1.5em;
+	border-radius: 1em;
+	border: 1px solid orange;
+	cursor: pointer;
+}
